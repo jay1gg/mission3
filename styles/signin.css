@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-login {
+    disply: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 140%;
+    padding: 80px 90px;
+}
+
+.form-login>img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    background-position: 0 0;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: rgba(24, 26, 28, 0.84);
+    display: flex;
+    margin-top: 101px;
+    width: 529px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.header .logo {
+    align-self: center;
+    display: flex;
+    gap: 4px;
+    font-size: 50px;
+    white-space: nowrap;
+    line-height: 110%;
+}
+
+.header .logo>img {
+    aspect-ratio: 1.14;
+    object-fit: auto;
+    object-position: center;
+    width: 50px;
+}
+
+.header .logo .text {
+    font-family: Londrina Solid, sans-serif;
+}
+
+.header h1 {
+    align-self: center;
+    margin-top: 37px;
+    font: 700 32px/110% Lato, sans-serif;
+}
+
+.header h2 {
+    letter-spacing: 0.2px;
+    align-self: center;
+    margin-top: 8px;
+    font: 16px Lato, sans-serif;
+}
+
+.form {
+    flex-direction: column;
+    justify-content: left;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    text-align: left;
+}
+
+.form label {
+    letter-spacing: 0.2px;
+    margin-top: 37px;
+    font: 500 18px Lato, sans-serif;
+}
+
+.user {
+    align-items: start;
+    border-radius: 24px;
+    border-color: rgba(231, 227, 252, 0.23);
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 6px;
+    color: var(--text-light-secondary, #c1c2c4);
+    letter-spacing: 0.2px;
+    justify-content: center;
+    padding: 14px 20px;
+    font: 16px Lato, sans-serif;
+}
+
+.paswd {
+    justify-content: space-between;
+    border-radius: 24px;
+    border-color: rgba(231, 227, 252, 0.23);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-size: 16px;
+    color: var(--text-light-secondary, #c1c2c4);
+    letter-spacing: 0.2px;
+    padding: 13px 20px;
+}
+
+.lupa {
+    display: flex;
+    margin-top: 12px;
+    gap: 20px;
+    letter-spacing: 0.2px;
+    justify-content: space-between;
+}
+
+.lupa2 {
+    font: 14px Lato, sans-serif;
+    line-height: 22px
+}
+.lupa3 {
+    display: flex;
+    margin-top: 12px;
+    gap: 20px;
+    letter-spacing: 0.2px;
+    justify-content: space-between;
+    object-position: center;
+}
+
+.submit {
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border-color: rgba(231, 227, 252, 0.23);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--Other-Extra, #3d4142);
+    margin-top: 37px;
+    white-space: nowrap;
+    letter-spacing: 0.2px;
+    padding: 14px 20px;
+    font: 600 16px Lato, sans-serif;
+}
+
+.atau {
+    color: #9d9ea1;
+    letter-spacing: 0.2px;
+    align-self: center;
+    margin-top: 8px;
+    font: 500 14px Lato, sans-serif;
+}
+
+.google {
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border-color: rgba(231, 227, 252, 0.23);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    padding: 13px 20px;
+}
+
+.google-btn {
+    display: flex;
+    gap: 20pnx;
+}
+
+.google-btn>img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 18px;
+    margin: auto 0;
+}
+
+@media (max-width: 991px) {
+
+    .form-login {
+        padding: 0 20px;
+    }
+
+    .header {
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+
+    .logo, .text {
+        font-size: 40px;
+        white-space: initial;
+    }
+
+    .form label {
+        max-width: 100%;
+    }
+
+    .user, .passwd, .google {
+        max-width: 100%;
+    }
+
+    .submit {
+        max-width: 100%;
+        white-space: initial;
+    }
+}
