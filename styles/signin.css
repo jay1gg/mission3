@@ -98,7 +98,7 @@
     border-style: solid;
     border-width: 1px;
     margin-top: 6px;
-    color: var(--text-light-secondary, #c1c2c4);
+    color: #c1c2c4;
     letter-spacing: 0.2px;
     justify-content: center;
     padding: 14px 20px;
@@ -115,7 +115,7 @@
     margin-top: 6px;
     gap: 20px;
     font-size: 16px;
-    color: var(--text-light-secondary, #c1c2c4);
+    color: #c1c2c4;
     letter-spacing: 0.2px;
     padding: 13px 20px;
 }
@@ -148,7 +148,7 @@
     border-color: rgba(231, 227, 252, 0.23);
     border-style: solid;
     border-width: 1px;
-    background-color: var(--Other-Extra, #3d4142);
+    background-color: #3d4142;
     margin-top: 37px;
     white-space: nowrap;
     letter-spacing: 0.2px;
